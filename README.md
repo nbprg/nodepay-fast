@@ -7,7 +7,10 @@ cd nodepay-fast
 ```
 - Open ```proxy.txt``` file use : ```nano proxy.txt``` & paste Your proxy one by one.
 - Save & close proxy file using : ```ctrl``` ```x``` ```y``` then enter.
-- Then Open Kiwi Browser & Copy ```np_token```
+- Then Open Kiwi Browser & Copy ```np_token``` by console command
+```
+localStorage.getItem('np_token')
+```
 - Then Run 👇
 ```
 python nodepay.py
